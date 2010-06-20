@@ -1,0 +1,4 @@
+* add visual effects for better UX
+* support more runtimes
+* eliminate big libraries, especially for mobile platforms
+* pack code with Closure Compiler

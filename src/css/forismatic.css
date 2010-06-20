@@ -1,0 +1,97 @@
+html, body {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	color: #656559;
+}
+
+#widget {
+	margin-right: 20px;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#config {
+	display: none;
+}
+
+.config #config {
+	display: block;
+}
+
+.config #app {
+	display: none;
+}
+
+.config #refresh {
+	display: none;
+}
+
+#header {
+	height: 26px;
+}
+
+#logo {
+	display: inline-block;
+	width: 145px;
+	height: 30px;
+	background: transparent url(../img/logo.png) scroll no-repeat 0 0;
+}
+
+.iconbutton {
+	opacity: 0.0;
+	padding: 0;
+	border: 0;
+	height: 26px;
+	width: 26px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	float: right;
+}
+
+.iconbutton:active {
+	background-position: 0 2px;
+}
+
+#refresh {
+	background-image: url(../img/refresh.png);
+}
+
+#refresh:hover {
+	background-image: url(../img/refresh2.png);
+}
+
+#settings {
+	background-image: url(../img/settings.png);
+}
+
+#settings:hover {
+	background-image: url(../img/settings2.png);
+}
+
+#widget:hover .iconbutton {
+	opacity: 1;
+}
+
+#author {
+	display: inline-block;
+	height: 18px;
+	padding: 4px 0;
+	font-style: italic;
+	font-size: 16px;
+	color: #a39d9d;
+}
+
+h1 {
+	margin: 5px 0;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#language {
+	margin: 0 10px;
+}

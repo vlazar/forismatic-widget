@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget network="public">
+	<widgetname>Forismatic</widgetname>
+	<description>Widget for forismatic.com - the most inspiring expressions of mankind</description>
+	<widgetfile>index.html</widgetfile>
+	<width>400</width>
+	<height>300</height>
+	<icon>img/i512.png</icon>
+	<icon>img/i256.png</icon>
+	<icon>img/i128.png</icon>
+	<icon>img/i64.png</icon>
+	<icon>img/i32.png</icon>
+	<icon>img/i16.png</icon>
+	<author>
+		<name>Vladislav Zarakovsky</name>
+		<link>http://github.com/vlazar</link>
+	</author>
+	<id>
+		<host>widgets.opera.com</host>
+		<name>Forismatic</name>
+		<revised>2010-06-20</revised>
+	</id>
+	<security>
+		<access>
+			<protocol>http</protocol>
+			<host>api.forismatic.com</host>
+			<port>80</port>
+			<path>/api</path>
+		</access>
+		<content plugins="no"/>
+	</security>
+</widget>
