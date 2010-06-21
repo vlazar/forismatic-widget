@@ -6,7 +6,8 @@ About
 
 Forismatic Widget pulls the most inspiring expressions of mankind from [forismatic.com](http://en.forismatic.com) website collection. It is is a W3C widget.
 
-[Screenshot]
+![Forismatic Widget](doc/app.png)
+![Forismatic Widget](doc/settings.png)
 
 A W3C Widget?
 -------------
