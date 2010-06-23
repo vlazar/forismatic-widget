@@ -64,7 +64,7 @@ forismatic.load = function() {
 			format: "jsonp",
 			jsonp: "forismatic.refresh"
 		});
-	}); 
+	});
 
 	var lang = forismatic.language();
 	if ("" == lang) {
@@ -77,5 +77,4 @@ forismatic.load = function() {
 	$("#refresh").trigger("click");
 };
 
-// jQuery's $(document).ready doesn't work here
-window.addEventListener("load", forismatic.load, false);
+$("document").ready(forismatic.load);
